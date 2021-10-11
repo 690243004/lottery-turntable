@@ -1,11 +1,17 @@
 <template>
   <div id="app">
-    <LotterTurnable />
+    <LotterTurnable :prices="prices" />
   </div>
 </template>
 <script>
 import LotterTurnable from "./components/lottery-turntable.vue";
+import { prices } from './components/mock'
 export default {
+  data() { 
+    return { 
+      prices
+    }
+  },
   components: {
     LotterTurnable,
   },

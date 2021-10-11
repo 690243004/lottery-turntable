@@ -1,0 +1,22 @@
+{
+  "name": "vue-lottery-turntable",
+  "version": "1.0.0",
+  "description": "The lottery-turntable component. Base on Vue2.",
+  "main": "dist/lib/lotteryTurntable.min.js",
+  "style": "dist/lib/index.css",
+  "module": "dist/es/lotteryTurntable.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "lottery-turntable",
+    "ui",
+    "components"
+  ],
+  "author": "xh",
+  "license": "MIT",
+  "devDependencies": {
+    "vue": "^2.6.14"
+  }
+}
